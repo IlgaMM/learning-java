@@ -50,7 +50,12 @@ public class Main {
         double quotient = 5.0/8.5;
         System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
 
-        //.md - stands for Markdown documentation. It is a lightweight markup language that can be easily converted to text.
+        System.out.println("reminder");
+        int result = 9/4;
+        System.out.println("result is: "+ result);
 
+        // modulo operator - remainder operator: 9/4 = 2 and 1(reminder)
+        result = 9%4;
+        System.out.println("and now result is: " + result);
     }
 }
