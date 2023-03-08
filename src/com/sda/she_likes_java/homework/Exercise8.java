@@ -20,7 +20,5 @@ public class Exercise8 {
         System.out.println("Multiplication is: " + multi);
         double div = (double) Num1 / Num2;
         System.out.println("Division is: " + div);
-
-
     }
 }
