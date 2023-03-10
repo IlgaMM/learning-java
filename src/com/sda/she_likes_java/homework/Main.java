@@ -19,8 +19,8 @@ public class Main {
 
 
         // use camel case starting with lower letter
-        String myName = "Ilga" ;
-        String mySurname = "Miezaine Mustermane" ;
+        String myName = "Ilga";
+        String mySurname = "Miezaine Mustermane";
         System.out.println(myName + "-" + mySurname);
 
         String five = "5";
@@ -49,15 +49,15 @@ public class Main {
         int product = 5 * 8;
         System.out.println("Product of 5 and 8 is: " + product);
 
-        double quotient = 5.0/8.5;
+        double quotient = 5.0 / 8.5;
         System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
 
         System.out.println("reminder");
-        int result = 9/4;
-        System.out.println("result is: "+ result);
+        int result = 9 / 4;
+        System.out.println("result is: " + result);
 
         // modulo operator - remainder operator: 9/4 = 2 and 1(reminder)
-        result = 9%4;
+        result = 9 % 4;
         System.out.println("and now result is: " + result);
     }
 }

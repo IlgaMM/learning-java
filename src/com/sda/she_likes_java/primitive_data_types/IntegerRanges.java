@@ -5,13 +5,13 @@ public class IntegerRanges {
         System.out.println("Let's see hoe integers ranges looks like");
         System.out.println("int ranges");
         System.out.println("minimal int number is: " + Integer.MIN_VALUE);
-        System.out.println("maximum int number ir: " + Integer.MAX_VALUE );
+        System.out.println("maximum int number ir: " + Integer.MAX_VALUE);
 
         System.out.println();
 
         System.out.println("now let's check long type");
 
-        System.out.println("minimal long number is " + Long.MIN_VALUE );
+        System.out.println("minimal long number is " + Long.MIN_VALUE);
         System.out.println("maximum long number is: " + Long.MAX_VALUE);
         System.out.println();
 

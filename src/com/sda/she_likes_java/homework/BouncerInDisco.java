@@ -8,7 +8,7 @@ public class BouncerInDisco {
         System.out.println("Please type in your age: ");
         Scanner input = new Scanner(System.in);
         int yourAge = input.nextInt();
-        System.out.println("and your height: ");
+        System.out.println("and your height (cm): ");
         int yourHeight = input.nextInt();
         if (yourAge >= 18) {
             System.out.println("you are good to go");
@@ -20,11 +20,6 @@ public class BouncerInDisco {
         } else {
             System.out.println("bye bye!");
         }
-
-
-
-
-
 
     }
 }
