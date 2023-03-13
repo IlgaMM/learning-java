@@ -19,6 +19,7 @@ public class FunctionsFirstExample {
         printMyName();
     }
 
+    //it's function
     public static void printMyName() {
 
         int numberOfTimes = 10;
@@ -27,4 +28,5 @@ public class FunctionsFirstExample {
             numberOfTimes--;
         }
     }
+
 }
