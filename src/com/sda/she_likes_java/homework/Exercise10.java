@@ -32,9 +32,9 @@ public class Exercise10 {
 
 
         if (goHome) {
-            System.out.println("Go Home!!!");
+            System.out.println("Go Home!!! No second chances tonight!");
         } else if (partyYoung) {
-            System.out.println("Young ones party all night!");
+            System.out.println("You can party all night!");
         } else {
             System.out.println(declineTxt);
         }
