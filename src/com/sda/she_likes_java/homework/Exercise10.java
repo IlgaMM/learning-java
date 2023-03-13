@@ -30,7 +30,6 @@ public class Exercise10 {
         boolean goHome = age <= 18 && height <= 165 && answer == false;
         boolean partyYoung = age >= 18 && height >= 165 && answer == true;
 
-
         if (goHome) {
             System.out.println("Go Home!!! No second chances tonight!");
         } else if (partyYoung) {
