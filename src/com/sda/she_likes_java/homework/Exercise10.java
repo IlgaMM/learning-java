@@ -27,12 +27,14 @@ public class Exercise10 {
             return;
         }
 
-        boolean isAllowedToParty = age >= 18 && height >= 165 && answer == true;
+        boolean goHome = age <= 18 && height <= 165 && answer == false;
+        boolean partyYoung = age >= 18 && height >= 165 && answer == true;
 
-        if (isAllowedToParty) {
-            System.out.println("Have a great time at the Young Disco Party!!!");
-        } else if (!isAllowedToParty) {
-            System.out.println("Go home");
+
+        if (goHome) {
+            System.out.println("Go Home!!!");
+        } else if (partyYoung) {
+            System.out.println("Young ones party all night!");
         } else {
             System.out.println(declineTxt);
         }
