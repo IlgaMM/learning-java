@@ -8,7 +8,7 @@ public class Exercise10 {
 
         System.out.println("Check out your ability to get in by typing in your age");
         Scanner inputReader = new Scanner(System.in);
-        String declineTxt = "join oldies";
+        String declineTxt = "my eyesight is not so good anymore, but I think You ar good to go, have a great party ";
         int age = inputReader.nextInt();
 
         System.out.println("Let me know Your height now: ");
