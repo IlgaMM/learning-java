@@ -64,7 +64,7 @@ public class Exercise11functions {
             return;
         }
 
-        boolean canEnterTheParty = age >= 18 || height > 180 || answer == true;;
+        boolean canEnterTheParty = age >= 18 || height >= 180 || answer == true;;
 
         if (canEnterTheParty) {
             System.out.println("my eyesight is not so good anymore, but I think You ar good to go, have a great party");
