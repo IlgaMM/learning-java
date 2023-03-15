@@ -10,9 +10,7 @@ public class Exercise11functions {
         System.out.println("good luck next time");
         System.out.println();
         oldBouncer();
-
     }
-
     public static void youngBouncer() {
 
         System.out.println("Check out your ability to get in by typing in your age");
@@ -48,7 +46,6 @@ public class Exercise11functions {
 
         System.out.println("Check out your ability to get in by typing in your age");
         Scanner inputReader = new Scanner(System.in);
-        String declineTxt = "my eyesight is not so good anymore, but I think You ar good to go, have a great party ";
         int age = inputReader.nextInt();
 
         System.out.println("Let me know Your height now: ");
@@ -67,7 +64,7 @@ public class Exercise11functions {
             return;
         }
 
-        boolean canEnterTheParty = age >= 18 || height > 180 || answer == true;
+        boolean canEnterTheParty = age >= 18 || height > 180 || answer == true;;
 
         if (canEnterTheParty) {
             System.out.println("my eyesight is not so good anymore, but I think You ar good to go, have a great party");
