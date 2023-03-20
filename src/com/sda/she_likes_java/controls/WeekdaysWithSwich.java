@@ -32,8 +32,7 @@ public class WeekdaysWithSwich {
             case 7:
                 System.out.println("It's sunday");
                 break;
-            case default:
-                System.out.println("Don't cheat!!");
+
 
         }
     }
