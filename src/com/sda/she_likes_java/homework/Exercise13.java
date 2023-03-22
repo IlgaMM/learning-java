@@ -1,6 +1,10 @@
 package com.sda.she_likes_java.homework;
 
 public class Exercise13 {
+    /*
+    tā iespējams rakstīt visādas piezīmes, garākas, vairākās rindiņās
+
+     */
     public static void main(String[] args) {
         int[] element1 = new int[100];
 

@@ -38,13 +38,9 @@ public class Exercise12 {
                 largest = randomNumber1;
             }
         }
-
-        // Output the sorted numbers
         System.out.println("Sorted numbers:");
         System.out.println(smallest);
         System.out.println(middle);
         System.out.println(largest);
-
-
     }
 }
