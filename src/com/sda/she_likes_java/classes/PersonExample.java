@@ -4,7 +4,7 @@ public class PersonExample {
     public static void main(String[] args) {
         System.out.println("Let's use our newly created class Person");
         // number is primitive variable
-        int number = 1;
+        //int number = 1;
 
         //me is object variable
         //me is reference to object
