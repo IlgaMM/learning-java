@@ -26,14 +26,19 @@ public class Parent {
                 '}';
     }
 
+  //  public void mammaPrint(){
+  //      System.out.println("Mamma: " + firstName + " " + surname + " " );
+  //  }
+    
     public static void main(String[] args) {
         Address address = new Address("Latvija", "Rīga", "Salnas", 21, "LV-2021");
         Person child1 = new Person("Madara", "Miezaine-Mustermane", 9);
         Person child2 = new Person("Melisa", "Miezaine-Mustermane", 4);
         Parent mamma = new Parent("Ilga", "Miezaine-Mustermane", address, child1, child2);
-
+      //  mamma.mammaPrint();
         System.out.println(mamma.toString());
     }
+
 }
 
 

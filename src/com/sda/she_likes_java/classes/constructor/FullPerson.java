@@ -1,10 +1,10 @@
 package com.sda.she_likes_java.classes.constructor;
 
 public class FullPerson {
-    String name;
-    String surname;
-    int age;
-    FullAddress address;
+   private String name;
+   private String surname;
+   private int age;
+   private FullAddress address;
 
     public FullPerson() {
     }
@@ -13,6 +13,38 @@ public class FullPerson {
         this.name = name;
         this.surname = surname;
         this.age = age;
+        this.address = address;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public FullAddress getAddress() {
+        return address;
+    }
+
+    public void setAddress(FullAddress address) {
         this.address = address;
     }
 
@@ -26,9 +58,16 @@ public class FullPerson {
                 '}';
     }
 
+    public void describeYourself() {
+        System.out.println("Hi I'm " + name + " " + surname + " " + age);
+    }
+
     public static void main(String[] args) {
         FullAddress address = new FullAddress("Latvija","Rīga", "Salnas","LV1021");
         FullPerson person = new FullPerson("Ilga","Miezaine-Mustermane", 35, address);
         System.out.println("Person is: "+ person);
+        person.describeYourself();
+        FullPerson personWithoutAddress = new FullPerson("Anna","Vanna",22,null);
+        personWithoutAddress.describeYourself();
     }
 }
