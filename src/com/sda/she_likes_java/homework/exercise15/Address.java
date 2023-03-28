@@ -12,13 +12,15 @@ public class Address {
     //Use proper data types.
     //Try to create to create two different addresses objects and init them with some values.
 
-    private String country;
-    private String city;
-    private String street;
-    private int streetNumber;
-    private String postalCode;
+    public String country;
+    public String city;
+    public String street;
+    public int streetNumber;
+    public String postalCode;
 
-    public Address (String country,String city,String street,int streetNumber, String postalCode) {
+    public Address() {
+    }
+    public Address (String country, String city, String street, int streetNumber, String postalCode) {
         this.country = country;
         this.city = city;
         this.street = street;

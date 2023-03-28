@@ -1,14 +1,14 @@
 package com.sda.she_likes_java.homework.exercise15;
 
 public class Parent {
-    String firstName;
+    String name;
     String surname;
     Address address;
     Person firstChild;
     Person secondChild;
 
-    public Parent(String firstName, String surname, Address address, Person firstChild, Person secondChild) {
-        this.firstName = firstName;
+    public Parent(String name, String surname, Address address, Person firstChild, Person secondChild) {
+        this.name = name;
         this.surname = surname;
         this.address = address;
         this.firstChild = firstChild;
@@ -18,7 +18,7 @@ public class Parent {
     @Override
     public String toString() {
         return "Parent{" +
-                "firstName='" + firstName + '\'' +
+                "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", address=" + address +
                 ", firstChild=" + firstChild +
@@ -26,7 +26,7 @@ public class Parent {
                 '}';
     }
 
-  //  public void mammaPrint(){
+//  public void mammaPrint(){
   //      System.out.println("Mamma: " + firstName + " " + surname + " " );
   //  }
     

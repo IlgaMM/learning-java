@@ -1,9 +1,9 @@
 package com.sda.she_likes_java.homework.exercise15;
 
 public class Person {
-    private String name;
-    private String surname;
-    private int age;
+    public String name;
+    public String surname;
+    public int age;
 
     public Person(String name,String surname,int age) {
         this.name = name;
