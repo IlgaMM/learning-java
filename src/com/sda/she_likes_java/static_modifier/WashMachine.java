@@ -36,7 +36,9 @@ public class WashMachine {
     public String getModel() {
         return model;
     }
-
+public void increaseSerialNumber() {
+        serialNumber++;
+}
     @Override
     public String toString() {
         return "WashMachine{" +
