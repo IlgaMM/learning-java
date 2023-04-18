@@ -4,6 +4,11 @@ public class House {
     private int numberOfRooms;
     private int numberOfBathrooms;
 
+    public House(int numberOfRooms, int numberOfBathrooms) {
+        this.numberOfRooms = numberOfRooms;
+        this.numberOfBathrooms = numberOfBathrooms;
+    }
+
     public int getNumberOfRooms() {
         return numberOfRooms;
     }
@@ -12,8 +17,11 @@ public class House {
         this.numberOfRooms = numberOfRooms;
     }
 
-    public House(int numberOfRooms, int numberOfBathrooms) {
-        this.numberOfRooms = numberOfRooms;
+    public int getNumberOfBathrooms() {
+        return numberOfBathrooms;
+    }
+
+    public void setNumberOfBathrooms(int numberOfBathrooms) {
         this.numberOfBathrooms = numberOfBathrooms;
     }
 
