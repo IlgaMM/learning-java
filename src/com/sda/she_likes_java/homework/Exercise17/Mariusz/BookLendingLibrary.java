@@ -8,13 +8,13 @@ public class BookLendingLibrary {
     public static void main(String[] args) {
         System.out.println("Let’s create some books");
         createBourneTrilogy();
-        System.out.printf("Number of copies of all books: [%d]%n",Book.getNumberOfCreatedBooks());
+        System.out.printf("Number of copies of all books: [%d]%n", Book.getNumberOfCreatedBooks());
         Book[] createdArray = createBourneTrilogyAndStoreItInArray();
         Book toCopy = new Book("Bourne Ultimatum", "Robert Ludlum", Year.of(1990));
         Book[] twoBooks = createCopyOfBook(toCopy);
-        System.out.println("First copy of book: "+twoBooks[0]);
-        System.out.println("Second copy of book: "+twoBooks[1]);
-        System.out.printf("Number of copies of all books: [%d]%n",Book.getNumberOfCreatedBooks());
+        System.out.println("First copy of book: " + twoBooks[0]);
+        System.out.println("Second copy of book: " + twoBooks[1]);
+        System.out.printf("Number of copies of all books: [%d]%n", Book.getNumberOfCreatedBooks());
     }
 
     public static void createBourneTrilogy() {
@@ -43,3 +43,4 @@ public class BookLendingLibrary {
         }
         return books;
     }
+}
