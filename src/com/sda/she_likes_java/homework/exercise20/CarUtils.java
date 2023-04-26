@@ -13,7 +13,7 @@ public class CarUtils {
             toyota.toyotaOffRoad();
             toyota.toyotaSnailSpeed();
         } else {
-            System.out.println("Object sent is of different type");
+            System.out.println("Object sent is of different type.");
         }
 
     }
