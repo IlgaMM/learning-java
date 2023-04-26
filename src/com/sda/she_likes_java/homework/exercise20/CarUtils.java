@@ -17,4 +17,7 @@ public class CarUtils {
         }
 
     }
+    public static void useToyota(Toyota car){
+
+    }
 }
