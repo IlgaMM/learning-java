@@ -7,9 +7,7 @@ public class ImmutableString {
         name = name.concat("pastuszka"); // + is shortcut for concat method call
         name = name.concat("he's 40");
         System.out.println("My name now: " + name);
-        StringBuilder nameWithBuilder = new StringBuilder("mariusz");
-        nameWithBuilder.append(" pastuszka");
-        System.out.println("Name with builder: " + nameWithBuilder);
+        System.out.println("Name with builder: " + "mariusz" + " pastuszka");
 
         String some = "Alice " + " is" + " 10" + " years";
         // "Alice is" + " 10" + " years"

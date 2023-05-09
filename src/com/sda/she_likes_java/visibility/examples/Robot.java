@@ -1,8 +1,8 @@
 package com.sda.she_likes_java.visibility.examples;
 
 public class Robot {
-    private String model;
-    private String generation;
+    private final String model;
+    private final String generation;
     private int xPosition;
     private int yPosition;
 

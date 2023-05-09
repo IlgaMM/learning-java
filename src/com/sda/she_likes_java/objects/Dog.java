@@ -13,6 +13,6 @@ public class Dog {
     public static void main(String[] args) {
         Dog dog = new Dog();
         dog.name = "Azor";
-        System.out.println("My dog: " + dog.toString());
+        System.out.println("My dog: " + dog);
     }
 }

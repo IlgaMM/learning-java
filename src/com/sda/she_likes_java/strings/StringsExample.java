@@ -10,7 +10,7 @@ public class StringsExample {
         System.out.println("Hi, I'm " + name + " " + surname +". I am " + age + " old.");
         // %s means String wildcard
         // %d means number wildcard
-        System.out.println(String.format("Hi, I'm %s %s. I am %d years old.",name, surname, age));
-        System.out.println("Hi, I'm %s %s. I am %d old.".formatted(name, surname, age));
+        System.out.printf("Hi, I'm %s %s. I am %d years old.%n",name, surname, age);
+        System.out.printf("Hi, I'm %s %s. I am %d old.%n", name, surname, age);
     }
 }

@@ -56,11 +56,11 @@ public class Exercise11Mariusz {
 
     // first line is function prototype
     public static boolean checkedByYoungBouncer(int age, int height, boolean isAbleToSingWell) {
-        return age >= 18 && height >= 180 && isAbleToSingWell == true;
+        return age >= 18 && height >= 180 && isAbleToSingWell;
     }
 
     public static boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell) {
-        return age >= 18 || height >= 180 || isAbleToSingWell == true;
+        return age >= 18 || height >= 180 || isAbleToSingWell;
     }
 }
 

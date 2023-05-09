@@ -40,6 +40,6 @@ public class FullAddress {
         System.out.println("FullAddress created by hand: " + myAddress);
 
         FullAddress createdWithFullConstructor = new FullAddress("Spain", "Barcelona", "La", "12345");
-        System.out.println("FullAddress created with constructor: " + createdWithFullConstructor.toString());
+        System.out.println("FullAddress created with constructor: " + createdWithFullConstructor);
     }
 }

@@ -6,7 +6,7 @@ public class WashMachineFactory {
         System.out.println("current population number is: " + WashMachine.getNumberOfCreatedMachines());
         System.out.println("samsung serial number is : " +samsung.getSerialNumber());
         samsung.setSerialNumber(5);
-        samsung.setNumberOfCreatedMachines(1000);
+        WashMachine.setNumberOfCreatedMachines(1000);
 
         //do not yse instance references to static members (fields/methods)
         //neizmantojiet instanču atsauces uz statiskiem dalībniekiem (lauki/metodes)

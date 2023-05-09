@@ -36,7 +36,7 @@ public class Parent {
         Person child2 = new Person("Melisa", "Miezaine-Mustermane", 4);
         Parent mamma = new Parent("Ilga", "Miezaine-Mustermane", address, child1, child2);
       //  mamma.mammaPrint();
-        System.out.println(mamma.toString());
+        System.out.println(mamma);
     }
 
 }
