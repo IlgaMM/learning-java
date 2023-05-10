@@ -20,11 +20,11 @@ public class ShoppingCart  {
 
     public double calculateTotalBasketValue() {
         double sum = 0;
-        for (int i = 0; i< items.size(); i++) {
+        for (Item item : items) {
             //item[i]
             // sum = sum+ items.get(i).getPrice(); tas pats kas zemāk
             //items.size() is like array.length
-            sum+=items.get(i).getPrice();
+            sum += item.getPrice();
         }
         return sum;
     }
