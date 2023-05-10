@@ -7,6 +7,9 @@ public class Person {
     private String surname;
     private int age;
 
+    public Person(String johny, String b) {
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
