@@ -20,9 +20,6 @@ public class LessonJournal {
                 subjectGrades.put(subject, 0.0);
             }
             grades.put(pupil, subjectGrades);
-            {
-
-            }
         }
 
     }
