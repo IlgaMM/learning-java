@@ -1,8 +1,8 @@
-package com.sda.she_likes_java.homework.exercise1;
+package com.sda.she_likes_java.homework.exercise12;
 
 import java.util.Scanner;
 
-public class Exercise1 {
+public class Exercise12 {
     public static void main(String[] args) {
         System.out.println("please write in 3 numbers from 1-10");
         Scanner InputReader = new Scanner(System.in);
