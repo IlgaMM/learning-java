@@ -20,3 +20,24 @@ from students;
 update students
 set age = 18
 where id = 1;
+
+select max(id) as max_id, max(age) as max_age, max(grade) as max_grade
+from students;
+
+select max(id) + 1
+from students;
+
+select *
+from STUDENTS;
+
+select max(id) as max_id, max(age) as max_age, max(grade) as max_grade
+from students;
+
+select max(id) + 1 from students;
+
+
+insert into students(name, surname, age, sex, grade)
+values ( 'Ela', 'W.', 23, 'FEMALE', 6);
+--changing ID column
+ALTER TABLE STUDENTS ALTER COLUMN ID SET GENERATED ALWAYS START WITH (select max(id) + 1 from students);
+
