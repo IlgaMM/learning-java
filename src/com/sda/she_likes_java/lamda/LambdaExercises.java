@@ -16,7 +16,8 @@ public class LambdaExercises {
             }
         };
 
-        Jogging firstLambda = () -> {};
+        Jogging firstLambda = () -> {
+        };
         Jogging secondLambda = () -> {
             System.out.println("Run from Lambda");
         };
@@ -25,9 +26,29 @@ public class LambdaExercises {
             System.out.println("in place:)");
         });
 
-    }
-    public static void justRun(Jogging runner){
-        runner.run();
+        Walker jonny = () -> {
+        };
+
+        Adder longVersion = (int first, int second) -> {
+            return first + second;
+        };
+
+        // just names of parameters, without types
+        Adder shorterVersion = (first, second) -> {
+            return first + second;
+        };
+
+        Adder compactVersion = (first, second) -> first + second;
+        compactVersion.addTwoNumbers(1, 5);
+
+        Adder compactVersionWithManyInstructions = (first, second) -> {
+            System.out.println("Performing operations...");
+            return first + second;
+        };
+        compactVersionWithManyInstructions.addTwoNumbers(4, 4);
     }
 
+    public static void justRun(Jogging runner) {
+        runner.run();
+    }
 }
